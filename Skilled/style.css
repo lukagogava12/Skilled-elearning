@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-top: 16px;
+}
+
+.page {
+  width: 375px;
+}
+
+.button1 {
+  color: #fff;
+  background-color: #13183f;
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  border: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  /* margin-top: 24px; */
+  /* margin-bottom: 70px; */
+}
+
+.button2 {
+  color: #fff;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  border: none;
+  width: 167px;
+  height: 56px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 46px;
+}
+
+.button3 {
+  color: #fff;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  border: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #13183f;
+  font-weight: 800;
+  width: 343px;
+  margin-bottom: 26px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #83869a;
+}
+
+.getstarted {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+header p {
+  margin-bottom: 29px;
+}
+
+.p {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 10px;
+  width: 343px;
+  height: 120px;
+  box-shadow: 0px 25px 50px 0px #06168d0b;
+}
+
+.p p {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 28px;
+  margin-top: 29px;
+  font-weight: 800;
+}
+
+.pic1 {
+  margin-left: -60px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+footer {
+  background-color: #13183f;
+
+  padding-bottom: 36px;
+  padding-top: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 343px;
+}
+
+.box {
+  width: 343px;
+  height: 259px;
+  box-shadow: 0px 25px 50px 0px #06168d0b;
+  position: relative;
+}
+
+.X {
+  position: absolute;
+  left: 28px;
+  top: -24px;
+}
+
+.box h3 {
+  margin-top: 56px;
+  margin-bottom: 16px;
+  margin-left: 28px;
+  font-size: 20px;
+}
+
+.box p {
+  margin-bottom: 24px;
+  margin-left: 28px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 40px;
+  margin-top: -40px;
+}
+
+.business {
+  margin-bottom: 80px;
+}
